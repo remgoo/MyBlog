@@ -19,9 +19,9 @@ Nicename: Markdown
 
 *I*
 
-~~S~~
-
 ++U++
+
+~~S~~
 
 ==Mark==
 
@@ -43,7 +43,7 @@ hr
 - [x] complete task list
 
 [link](http://note.youdao.com/)
-![image](http://note.youdao.com/favicon.ico)
+![image](http://www.baidu.com/img/bdlogo.gif)
 
 
 ```
@@ -52,47 +52,32 @@ code
 code
 ```
 
-Table
+文字高亮
+```
+文字高亮功能能使行内部分文字高亮，使用一对反引号。  
+语法：  
+`linux` `网络编程` `socket` `epoll` 
+```
+`linux` `网络编程` `socket` `epoll` 
+
+
+#### 换行
+直接回车不能换行，可以在上一行文本后面补两个空格，  
+这样下一行的文本就换行了。  
+
+
+#### Table
 header 1 | header 2 | header 3
+
 ---|---|---
+
 row 1 col 1 | row 1 col 2 | row 1 col 3
 row 2 col 1 | row 2 col 2 | row 2 col 3
 
-math
+#### math
 ```math
 E = mc^2
 ```
 
-
-
----
-
-### 图表Markdown
-####graph
-```
-graph LR
-A-->B
-A-->B
-B-->c
-```
-
-#### sequence Diagram
-```
-sequenceDiagram
-A->>B: How are you?
-B->>A: Great!
-```
-
-#### gantt
-```
-gantt
-dateFormat YYYY-MM-DD
-section S1
-T1: 2014-01-01, 9d
-section S2
-T2: 2014-01-11, 9d
-section S3
-T3: 2014-01-02, 9d
-```
 
 ---
